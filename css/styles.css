@@ -235,11 +235,10 @@ img {
     padding-bottom: 200px;
     text-align: center;
     display: block;
-    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/hero.jpg);
 }
 
 .hero-title {
@@ -269,11 +268,9 @@ img {
     width: 216px;
     height: 50px;
     align-items: center;
-    /* text-align: center; */
     padding: 10px, 32px;
     margin-top: 30px;
     margin: 0 auto;
-    /* display: block; */
 }
 
 
@@ -418,12 +415,10 @@ img {
 
 /* social media */
 
-.icon-ul {
+.icons-ul {
     display: inline-flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-left: 32px;
-    margin-right: 32px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .icons-li {
@@ -431,9 +426,6 @@ img {
     width: 44px;
     height: 44px;
     background-color: var(--color-main);
-    gap: 1000000px;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .icon-link {
@@ -454,12 +446,6 @@ img {
     fill: var(--color-main);
     background-color: var(--color-text-action);
 }
-
-
-/* .icons-li:hover,
-.icons-li:focus {
-    background-color: #2196F3;
-} */
 
 
 /* постійні клієнти */
@@ -608,7 +594,7 @@ footer {
 
 .icons-li-f {
     display: inline-flex;
-    width: 44px;
+    /* width: 44px; */
     height: 44px;
     background-color: var(--color-background);
     margin-right: 10px;
