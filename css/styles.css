@@ -105,7 +105,10 @@ img {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    padding: 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0;
+    padding-right: 0;
     margin-right: 93px;
 }
 
@@ -232,11 +235,11 @@ img {
     padding-bottom: 200px;
     text-align: center;
     display: block;
-    background-image: url(../images/hero.jpg);
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(#2F303A66);
+    background-image: url(../images/hero.jpg);
 }
 
 .hero-title {
@@ -417,10 +420,10 @@ img {
 
 .icon-ul {
     display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
     flex-direction: row;
+    gap: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 .icons-li {
@@ -428,6 +431,9 @@ img {
     width: 44px;
     height: 44px;
     background-color: var(--color-main);
+    gap: 1000000px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .icon-link {
@@ -439,7 +445,6 @@ img {
     height: 100%;
     background-color: var(--color-main);
     border-radius: 50%;
-    gap: 10px;
 }
 
 .icon-team {}
@@ -659,7 +664,7 @@ footer {
 }
 
 .button-portfolio:hover,
-.header-contacts:focus {
+.button-portfolio:focus {
     background-color: var(--color-text-action);
     color: var(--color-button-port);
     cursor: pointer;
