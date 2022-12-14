@@ -569,7 +569,6 @@ footer {
 .join {
     display: flex;
     flex-direction: column;
-    margin-top: -157px;
     gap: 10px;
 }
 
@@ -594,7 +593,7 @@ footer {
 
 .icons-li-f {
     display: inline-flex;
-    /* width: 44px; */
+    width: 44px;
     height: 44px;
     background-color: var(--color-background);
     margin-right: 10px;
